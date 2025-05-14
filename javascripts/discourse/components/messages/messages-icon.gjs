@@ -21,7 +21,7 @@ export default class MessagesIcon extends Component {
 
   <template>
     <DButton
-      @icon="envelope"
+      @icon="envelope-open-text"
       class="icon btn-flat message-icon"
       @translatedTitle={{i18n "user.private_messages"}}
       @action={{this.openMessagesModal}}
