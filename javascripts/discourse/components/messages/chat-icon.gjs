@@ -31,7 +31,7 @@ export default class ChatIcon extends Component {
   }
 
   get icon() {
-    return "comments";
+    return "comment-dots";
   }
 
   get href() {
